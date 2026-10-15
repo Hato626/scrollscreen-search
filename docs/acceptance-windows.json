@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "checks": [
+    {
+      "name": "English OCR available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Real mouse drag selects physical screen rectangle",
+      "passed": true,
+      "detail": "Box { X = 151, Y = 185, Width = 1132, Height = 954, Right = 1283, Bottom = 1139 }"
+    },
+    {
+      "name": "Real screen capture and Windows OCR find fixture",
+      "passed": true,
+      "detail": "Reference row 000 distinct anchor record | Reference row 001 distinct anchor record | Reference row 002 distinct anchor record | Reference row 003 distinct anchor record | Reference row 004 distinct anchor record | TARGET common repeated phrase | Reference row 006 distinct anchor record | Reference row 007 distinct anchor record | Reference row 008 distinct anchor record | Reference row 009 distinct anchor record | Reference row 010 distinct anchor record"
+    },
+    {
+      "name": "OCR bounds inside captured physical pixels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Continuous application pipeline records first hit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Different identical text rows retained; overlap deduplicated",
+      "passed": true,
+      "detail": "history count 2"
+    },
+    {
+      "name": "Returning to earlier rows creates no duplicate",
+      "passed": true,
+      "detail": "history count 2"
+    },
+    {
+      "name": "Pause stops capture and history updates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Resume preserves deduplication",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Portable export contains metadata and controlled screenshots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "History persisted with exact screenshot bounds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Real registered Ctrl\u002BAlt\u002BF8 hotkey stops capture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Tray menu command wiring resumes and pauses collection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Real target window motion tracked in physical pixels",
+      "passed": true,
+      "detail": "before Box { X = 131, Y = 165, Width = 1172, Height = 994, Right = 1303, Bottom = 1159 }; after Box { X = 236, Y = 165, Width = 1172, Height = 994, Right = 1408, Bottom = 1159 }"
+    },
+    {
+      "name": "Real Chinese OCR query",
+      "passed": true,
+      "detail": "\u5C4F \u5E55 \u627E \u5B57 \u5668 \u672C \u5730 \u8BC6 \u53E6 \u5202 \u6D4B \u8BD5 \u6210 \u529F"
+    },
+    {
+      "name": "Clear deletes retained screenshot files",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "notes": [
+    "Installed OCR languages: en-US, zh-Hans-CN",
+    "Actual display DPI: 144 \u00D7 144; controlled capture region Box { X = 131, Y = 165, Width = 1172, Height = 994, Right = 1303, Bottom = 1159 }",
+    "Mixed-DPI physical displays, tray flyout interaction, remote/secure desktops and arbitrary third-party apps require manual verification; not claimed as exercised."
+  ]
+}
